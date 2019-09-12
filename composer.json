@@ -1,0 +1,24 @@
+{
+    "name": "isobar-nz/silverstripe-hotenv",
+    "description": "dot env cms editor",
+    "type": "silverstripe-vendormodule",
+    "require": {
+        "silverstripe/admin": "^4"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Damian Mooyman",
+            "email": "damian.mooyman@isobar.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "IsobarNZ\\HotEnv\\": "src/"
+        },
+        "files": [
+            "src/includes/include.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
